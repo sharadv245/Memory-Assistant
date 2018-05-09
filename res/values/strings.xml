@@ -1,0 +1,109 @@
+<resources>
+
+    <string name="app_name">Memory Assistant</string>
+
+    <string name="login">Login</string>
+    <string name="learn">Learn</string>
+    <string name="practice">Practice</string>
+    <string name="recall">Recall</string>
+    <string name="preferences">Preferences</string>
+    <string name="get_pro">Get Pro</string>
+    <string name="apply">Implement</string>
+    <string name="my_space">My Space</string>
+    <string name="reminders">Reminders</string>
+    <string name="title_activity_preferences">Preferences</string> <!--Weird error without this-->
+
+    <string name="cd">Chose Discipline</string>
+    <string name="a">Equations</string>
+    <string name="b">Numbers</string>
+    <string name="c">Words</string>
+    <string name="d">Names</string>
+    <string name="e">Cards</string>
+    <string name="f">Binary Digits</string>
+    <string name="g">Places</string>
+    <string name="h">Dates</string>
+    <string name="i">Foods</string>
+    <string name="j">Colours</string>
+    <string name="k">Letters</string>
+    <string name="random">Random</string>
+    <string name="cf">Chose File</string>
+
+    <string name="enter_ans">Enter responses</string>
+    <string name="score">Score</string>
+    <string name="time_taken">Time taken</string>
+    <string name="check">Check</string>
+    <string name="just_answers">Give Up!</string>
+    <string name="time_elapsed">Time Elapsed</string>
+    <string name="time_left">Time Left</string>
+    <string name="wrong">Wrong</string>
+    <string name="correct">Correct</string>
+    <string name="your_response">Your Responses</string>
+    <string name="correct_answers">Correct Answers</string>
+    <string name="delete">Delete</string>
+
+    <string name="enter">Enter the number of</string>
+    <string name="st">values</string>
+    <string name="decks">decks</string>
+    <string name="words_small">words</string>
+    <string name="places">places</string>
+    <string name="nm">names</string>
+    <string name="sz">Select maximum digits in a value</string>
+    <string name="clump">How many values to group together</string>
+    <string name="sw">Stopwatch</string>
+    <string name="tm">Timer</string>
+    <string name="clock">Select Timekeeper</string>
+    <string name="start">Start</string>
+    <string name="time_up">Time\'s Up</string>
+    <string name="ed">Please Enter Duration!</string>
+    <string name="reset">Reset</string>
+    <string name="stop">Stop</string>
+    <string name="resume">Resume</string>
+    <string name="ers">Enter number of values and size of each value</string>
+    <string name="save">Save</string>
+    <string name="save_failed">Save Failed. Retry?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="none">No time constraint</string>
+    <string name="enter_minutes">Enter minutes</string>
+    <string name="enter_seconds">Enter seconds</string>
+    <string name="next">Next</string>
+    <string name="prev">Previous</string>
+    <string name="negative">Include negative numbers</string>
+    <string name="decimal">Include decimal numbers</string>
+    <string name="start_timer">Start Timer</string>
+    <string name="start_stopwatch">Start Stopwatch</string>
+
+    <string name="majors">Major Systems</string>
+    <string name="ben">Ben Systems</string>
+    <string name="wardrobes">Wardrobes</string>
+    <string name="lists">Lists</string>
+    <string name="algos">Algorithms</string>
+    <string name="words">Words</string>
+
+    <string name="remind">Remind Me Periodically</string>
+    <string name="periodic">I Like To Practice At</string>
+    <string name="location_wise">Based On Location</string>
+    <string name="transit">During Transit</string>
+    <string name="default_time">22:30</string>
+    <string name="theme">Theme</string>
+    <string name="app_theme">AppTheme</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <string name="pitch">pitch</string>
+
+    <string name="fname">Name</string>
+    <string name="here">Enter here</string>
+
+    <string name="method_of_loci">Method Of Loci</string>
+    <string name="associations">The Perfect Association</string>
+    <string name="major_system">The Major System</string>
+    <string name="equations">Equations</string>
+    <string name="derivations">Derivations</string>
+    <string name="checkout">Check These Out!</string>
+    <string name="pao">The PAO Memory System</string>
+    <string name="wardrobe_method">Wardrobe Method</string>
+
+    <string name="tab">\t</string>
+    <string name="drop_down">Expand</string>
+
+</resources>

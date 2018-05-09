@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>
+    alert message</title>
+    </head>
+<body>
+    <p>
+    javascript
+        <button onclick="alert(how can i help you)">click me</button>
+        <button id="button2">click me</button>
+        <script>
+           
+        document.getElementById("button2").onclick=function(){
+            
+           fetch('words.txt')
+                    .then(response => response.text())
+                    .then(text => console.log(text))
+        }
+        </script>
+    </p></body>
+</html>

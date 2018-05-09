@@ -1,0 +1,149 @@
+/*styling.css*/
+/*Style body by adding background image and set it to cover, add font-family*/
+body{
+    font-family: Arvo, serif;
+   
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 70px;
+    
+}
+
+/*Style brand*/
+.logo{
+    height: 45px;   
+    
+}
+
+/*Style navigation bar*/
+
+
+.nav li{
+    color: #fff;
+    font-size: 17px;
+    margin-right: 35px;
+    padding: 10px 0;
+}  
+
+.nav li:hover{
+    border-bottom: 1px solid #00FFB8; 
+    padding-bottom: 9px;
+    cursor: pointer;
+} 
+
+
+/*Style jumbotron*/
+
+/*Style footer*/
+.footer{
+    background-color:black; 
+    color: white;
+    font-size: 15px;
+    padding: 10px 0;
+}
+#1 {
+   background-color: gray;
+}
+#2 {
+   background-color: blue !important;
+    color: white;
+}
+#3 {
+   background-color: red;
+    color: white;
+}
+#4 {
+    background-color: aqua;
+   
+}
+#5 {
+   background-color: goldenrod;
+}
+#6 {
+   background-color: black;
+    color: white;
+}
+#7 {
+    background-color: hotpink;
+   
+}
+#8 {
+   background-color: white;
+}
+#9 {
+   background-color: aqua;
+}
+
+
+.jumbotron{
+
+   padding-top: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-size:100% 100%;
+    height: 120px;
+    color: black;
+}
+
+
+.active {
+     border-bottom: 1px solid #00FFB8; 
+    padding-bottom: 9px;
+    cursor: pointer;
+}
+@media (max-width: 768px){
+    
+    .logo{
+        padding-bottom: 15px;
+        height: 45px;
+    }
+    .jumbotron{
+        height: 200px;
+    }
+    .btn{
+        margin-bottom: 10px;
+        
+    }
+}
+
+.btn-default {
+ background-color:transparent;
+ color: black;
+}
+
+
+
+#cs2 {
+    visibility: hidden;
+}
+#cs22 {
+    visibility: hidden;
+}
+#cs23 {
+    visibility: hidden;
+}
+#cs24 {
+    visibility: hidden;
+}
+#cs25 {
+    visibility: hidden;
+}
+#cs26 {
+    visibility: hidden;
+}
+#cs27 {
+    visibility: hidden;
+}
+#cs28 {
+    visibility: hidden;
+}
+#cs29 {
+    visibility: hidden;
+}
+
+
+
+
+#cs12 {
+    margin-top: 0px
+}
