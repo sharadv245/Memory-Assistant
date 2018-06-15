@@ -9,7 +9,7 @@ document.getElementById("cs1").onclick = function(){
                 document.getElementById("p1").innerHTML = 'Memorising equations using memory techniques is very rare but memorising derivations is almost not practiced at all.If you can memorise equations, memorising derivations should be a piece of cake. Just memorise each step at the next peg.Memorise as little as you can to ensures that you understand as much as possible. Also, doing so is very efficient. So, memorise only the most important steps and details, especially the first one.'
         }
 document.getElementById("cs12").onclick = function(){
-            document.getElementById("2").style.height = '1500px';
+            document.getElementById("2").style.height = '1000px';
              document.getElementById("cs12").style.visibility = 'hidden';
                 document.getElementById("cs22").style.visibility = 'visible';
                 document.getElementById("cs22").style.marginTop = '10px';
@@ -23,7 +23,7 @@ document.getElementById("cs12").onclick = function(){
         }
 
 document.getElementById("cs13").onclick = function(){
-            document.getElementById("3").style.height = '4500px';
+            document.getElementById("3").style.height = '3400px';
              document.getElementById("cs13").style.visibility = 'hidden';
                 document.getElementById("cs23").style.visibility = 'visible';
                 document.getElementById("cs23").style.marginTop = '10px';
@@ -32,7 +32,7 @@ document.getElementById("cs13").onclick = function(){
         }
 
 document.getElementById("cs14").onclick = function(){
-            document.getElementById("4").style.height = '3500px';
+            document.getElementById("4").style.height = '2200px';
              document.getElementById("cs14").style.visibility = 'hidden';
                 document.getElementById("cs24").style.visibility = 'visible';
                 document.getElementById("cs24").style.marginTop = '10px';
@@ -41,7 +41,7 @@ document.getElementById("cs14").onclick = function(){
         }
 
 document.getElementById("cs15").onclick = function(){
-            document.getElementById("5").style.height = '3500px';
+            document.getElementById("5").style.height = '2700px';
              document.getElementById("cs15").style.visibility = 'hidden';
                 document.getElementById("cs25").style.visibility = 'visible';
                 document.getElementById("cs25").style.marginTop = '10px';
@@ -50,7 +50,7 @@ document.getElementById("cs15").onclick = function(){
         }
 
 document.getElementById("cs16").onclick = function(){
-            document.getElementById("6").style.height = '4100px';
+            document.getElementById("6").style.height = '2900px';
              document.getElementById("cs16").style.visibility = 'hidden';
                 document.getElementById("cs26").style.visibility = 'visible';
                 document.getElementById("cs26").style.marginTop = '10px';
@@ -60,7 +60,7 @@ document.getElementById("cs16").onclick = function(){
         }
 
 document.getElementById("cs17").onclick = function(){
-            document.getElementById("7").style.height = '6180px';
+            document.getElementById("7").style.height = '4800px';
              document.getElementById("cs17").style.visibility = 'hidden';
                 document.getElementById("cs27").style.visibility = 'visible';
                 document.getElementById("cs27").style.marginTop = '10px';
