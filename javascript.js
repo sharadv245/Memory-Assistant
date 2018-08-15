@@ -23,7 +23,7 @@ document.getElementById("cs12").onclick = function(){
         }
 
 document.getElementById("cs13").onclick = function(){
-            document.getElementById("3").style.height = '3400px';
+            document.getElementById("3").style.height = '3700px';
              document.getElementById("cs13").style.visibility = 'hidden';
                 document.getElementById("cs23").style.visibility = 'visible';
                 document.getElementById("cs23").style.marginTop = '10px';
@@ -41,7 +41,7 @@ document.getElementById("cs14").onclick = function(){
         }
 
 document.getElementById("cs15").onclick = function(){
-            document.getElementById("5").style.height = '2700px';
+            document.getElementById("5").style.height = '2800px';
              document.getElementById("cs15").style.visibility = 'hidden';
                 document.getElementById("cs25").style.visibility = 'visible';
                 document.getElementById("cs25").style.marginTop = '10px';
@@ -50,7 +50,7 @@ document.getElementById("cs15").onclick = function(){
         }
 
 document.getElementById("cs16").onclick = function(){
-            document.getElementById("6").style.height = '2900px';
+            document.getElementById("6").style.height = '3300px';
              document.getElementById("cs16").style.visibility = 'hidden';
                 document.getElementById("cs26").style.visibility = 'visible';
                 document.getElementById("cs26").style.marginTop = '10px';
@@ -60,7 +60,7 @@ document.getElementById("cs16").onclick = function(){
         }
 
 document.getElementById("cs17").onclick = function(){
-            document.getElementById("7").style.height = '4800px';
+            document.getElementById("7").style.height = '5600px';
              document.getElementById("cs17").style.visibility = 'hidden';
                 document.getElementById("cs27").style.visibility = 'visible';
                 document.getElementById("cs27").style.marginTop = '10px';
