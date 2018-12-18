@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.memory_athelte.memoryassistant",
+    "sha256_cert_fingerprints":
+    ["B8:0B:00:37:89:38:D8:2B:CB:69:F4:C1:15:A3:B1:C5:F3:50:EE:7D:4D:84:67:39:A6:D3:25:57:32:49:8D:D7"]
+  }
+}]
