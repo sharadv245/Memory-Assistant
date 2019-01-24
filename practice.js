@@ -19,7 +19,7 @@ document.getElementById("s1").onclick = function(){
       }
       result.push(a[i]);
     }
-    document.getElementById("p1a").innerHTML ='<br />' + result + '<br /><br /><a id="ss1" class="btn btn-default btn-lg">Recall</a>';
+    document.getElementById("p1").innerHTML ='<br />' + result + '<br /><br /><a id="ss1" class="btn btn-default btn-lg">Recall</a>';
 
 
     document.getElementById("ss1").onclick = function(){
