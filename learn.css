@@ -2,8 +2,8 @@
 /*Style body by adding background image and set it to cover, add font-family*/
 body{
   font-family: Arvo, serif;
-  background-attachment: fixed;
-  background-size: cover;
+  background: url(images/5e1ba5370dc603dac2f21ef5f9d3454a--black-bookshelf-bookshelves.jpg);
+  background-attachment: inherit;
   padding-top: 70px;
 }
 
