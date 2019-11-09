@@ -1,0 +1,55 @@
+{
+  "hosting": {
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+
+
+    "redirects":
+    [
+      {
+        "source": "/index",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/about",
+        "destination": "/about.html",
+        "type": 301
+      },
+      {
+        "source": "/app",
+        "destination": "/app.html",
+        "type": 301
+      },
+      {
+        "source": "/learn",
+        "destination": "/learn.html",
+        "type": 301
+      },
+      {
+        "source": "/privacy",
+        "destination": "/privacy_policy.html",
+        "type": 301
+      },
+      {
+        "source": "/privacy_policy",
+        "destination": "/privacy_policy.html",
+        "type": 301
+      },
+      {
+        "source": "/privacypolicy",
+        "destination": "/privacy_policy.html",
+        "type": 301
+      },
+      {
+        "source": "/download",
+        "destination": "/https://play.google.com/store/apps/details?id=com.memory_athelte.memoryassistant",
+        "type": 301
+      }
+    ]
+  }
+}
