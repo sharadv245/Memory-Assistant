@@ -47,7 +47,7 @@
       },
       {
         "source": "/download",
-        "destination": "/https://play.google.com/store/apps/details?id=com.memory_athelte.memoryassistant",
+        "destination": "https://play.google.com/store/apps/details?id=com.memory_athelte.memoryassistant",
         "type": 301
       }
     ]
