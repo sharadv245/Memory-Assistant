@@ -6,34 +6,34 @@ body{
   background-attachment: inherit;
   padding-top: 70px;
 }
-
 /*Style brand*/
 .logo{
   height: 45px;
 }
-
 /*Style navigation bar*/
-
-
 .nav li{
   color: #fff;
   font-size: 17px;
   margin-right: 35px;
   padding: 10px 0;
 }
-
 .nav li:hover{
   border-bottom: 1px solid #00FFB8;
   padding-bottom: 9px;
-  cursor: pointer;
 }
-
-
-/*Style jumbotron*/
-.jumbotron-fluid{
-  margin: 16px;
-  padding: inherit;
+.active {
+  border-bottom: 1px solid #00FFB8;
+  padding-bottom: 9px;
+}
+.col-md-9 {
+  margin:16px;
   background-color: #DDDDDD;
+  border-radius: .5vw;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin:4px;
 }
 /*Style footer*/
 .footer{
@@ -41,99 +41,4 @@ body{
   color: white;
   font-size: 15px;
   padding: 10px 0;
-}
-#1 {
-  background-color: gray;
-}
-#2 {
-  background-color: blue !important;
-  color: white;
-}
-#3 {
-  background-color: red;
-  color: white;
-}
-#4 {
-  background-color: aqua;
-}
-#5 {
-  background-color: goldenrod;
-}
-#6 {
-  background-color: black;
-  color: white;
-}
-#7 {
-  background-color: hotpink;
-}
-#8 {
-  background-color: white;
-}
-#9 {
-  background-color: aqua;
-}
-
-.active {
-  border-bottom: 1px solid #00FFB8;
-  padding-bottom: 9px;
-  cursor: pointer;
-}
-@media (max-width: 768px){
-
-  .logo{
-    padding-bottom: 15px;
-    height: 45px;
-  }
-  .jumbotron{
-    height: 200px;
-  }
-  .btn{
-    margin-bottom: 10px;
-  }
-}
-
-.btn-default {
-  background-color:transparent;
-  color: black;
-}
-
-
-
-#cs2 {
-  visibility: hidden;
-}
-#cs22 {
-  visibility: hidden;
-}
-#cs23 {
-  visibility: hidden;
-}
-#cs24 {
-  visibility: hidden;
-}
-#cs25 {
-  visibility: hidden;
-}
-#cs26 {
-  visibility: hidden;
-}
-#cs27 {
-  visibility: hidden;
-}
-#cs28 {
-  visibility: hidden;
-}
-#cs29 {
-  visibility: hidden;
-}
-
-
-
-
-#cs12 {
-  margin-top: 0px
-}
-
-#footercolor {
-  color: white;
 }

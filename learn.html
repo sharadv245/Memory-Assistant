@@ -12,131 +12,71 @@
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="learn.css" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
 <body>
-  <!--Create Nav bar-->
+  <!--Nav bar-->
   <nav role="navigation" class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="index.html"><img src="images/Memory-League-Logo.png" class="logo"></a>
-        <button type="button" class="navbar-toggle" data-target="#navbarCollapse" data-toggle="collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      <div class="navbar-collapse collapse" id="navbarCollapse">
-        <ul class="nav navbar-nav">
-          <li><a href="index.html">Home</a></li>
-          <li class="active"><a href="learn.html">Learn</a></li>
-          <li><a href="privacy_policy.html">Privacy Policy</a></li>
-          <!-- <li><a href="practice.html">Practice</a></li> -->
-        </ul>
-      </div>
-    </div>
+    <a class="navbar-brand" href="index.html"><img src="images/Memory-League-Logo.png" class="logo"></a>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="learn.html">Learn</a></li>
+      <li><a href="privacy_policy.html">Privacy Policy</a></li>
+      <!-- <li><a href="practice.html">Practice</a></li> -->
+    </ul>
   </nav>
 
   <div class="container">
-    <div class= "jumbotron-fluid" id = "4">
-      <div class="featured">
-        <div class = "row">
-          <div class="col-md-9">
-            <h2 id ="head2">Method of Loci
-            </h2> <p id = "p4"></p><a id="cs14" class="btn btn-default btn-lg">Show More</a>
-            <a id="cs24" class="btn btn-default btn-lg">Show Less</a>
-          </p>
-        </div>
+    <div class="col-md-9">
+      <div class="header">
+        <span><h2>Method of Loci</h2></span>
+        <span id="loci" class="btn"><img src="images/ic_arrow_drop_down_dark.webp" style="height:32px"></span>
       </div>
+      <div id="1_loci"></div><!--loads text-->
     </div>
-  </div>
 
-  <div class= "jumbotron-fluid" id = "6">
-    <div class="featured">
-      <div class = "row">
-        <div class="col-md-9">
-          <h2 id ="head2">Perfect Association
-          </h2> <p id = "p6"></p><a id="cs16" class="btn btn-default btn-lg">Show More</a>
-          <a id="cs26" class="btn btn-default btn-lg">Show Less</a>
-        </p>
+    <div class="col-md-9">
+      <div class="header">
+        <span><h2>Perfect Association</h2></span>
+        <span id="perf_ass" class="btn"><img src="images/ic_arrow_drop_down_dark.webp" style="height:32px"></a>
       </div>
+      <div id="2_perf_ass"></div><!--loads text-->
     </div>
-  </div>
-</div>
 
-<div class= "jumbotron-fluid" id = "3">
-  <div class="featured">
-    <div class = "row">
-      <div class="col-md-9">
-        <h2 id ="head2">Major System</h2>
-        <p id ="p3" class = "p"></p>
-        <a id="cs13" class="btn btn-default btn-lg">Show More</a>
-        <a id="cs23" class="btn btn-default btn-lg">Show Less</a>
-      </p>
-    </div>
-  </div>
-</div>
-</div>
-
-<div class= "jumbotron-fluid" id = "5">
-  <div class="featured">
-    <div class = "row">
-      <div class="col-md-9">
-        <h2 id ="head2">The PAO Memory System</h2>
-        <p id = "p5"></p>
-        <a id="cs15" class="btn btn-default btn-lg">Show More</a>
-        <a id="cs25" class="btn btn-default btn-lg" >Show Less</a>
-      </p>
-    </div>
-  </div>
-</div>
-</div>
-
-<div class= "jumbotron-fluid" id = "7">
-  <div class="featured">
-    <div class = "row">
-      <div class="col-md-9">
-        <h2 id ="head2">Wardrobes</h2>
-        <p id = "p7"></p>
-        <a id="cs17" class="btn btn-default btn-lg">Show More</a>
-        <a id="cs27" class="btn btn-default btn-lg">Show Less</a>
-      </p>
-    </div>
-  </div>
-</div>
-</div>
-
-<!-- <div class= "jumbotron-fluid" id = "1">
-  <div class="featured">
-    <div class = "row">
-      <div class="col-md-9">
-        <h2 id ="head2">Numbers</h2>
-        <p id = "p1" class = "p"></p><a id="cs1" class="btn btn-default btn-lg">Show More</a>
-        <a id="cs2" class="btn btn-default btn-lg">Show Less</a>
-      </p>
-    </div>
-  </div>
-</div>
-</div> -->
-
-<div class= "jumbotron-fluid" id = "2">
-  <div class="featured">
-    <div class = "row">
-      <div class="col-md-9">
-        <h2 id ="head2">Equations</h2>
-        <p id = "p2" class ="p"></p>
-        <a id="cs12" class="btn btn-default btn-lg" >Show More</a>
-        <a id="cs22" class="btn btn-default btn-lg">Show Less</a>
+    <div class="col-md-9">
+      <div class="header">
+        <span><h2>Major System</h2></span>
+        <span id="major" class="btn"><img src="images/ic_arrow_drop_down_dark.webp" style="height:32px"></span>
       </div>
+      <div id ="3_major"></div>
     </div>
-  </div>
-</div>
-</div>
 
-<script src="learn.js"/>
+    <div class="col-md-9">
+      <div class="header">
+        <span><h2>The PAO Memory System</h2></span>
+        <span id="pao" class="btn"><img src="images/ic_arrow_drop_down_dark.webp" style="height:32px"></span>
+      </div>
+      <div id="4_pao"></div>
+    </div>
+
+    <div class="col-md-9">
+      <div class="header">
+        <span><h2>Wardrobe Method</h2></span>
+        <span id="wardrobe" class="btn"><img src="images/ic_arrow_drop_down_dark.webp" style="height:32px"></span>
+      </div>
+      <div id="5_wardrobe"></div>
+    </div>
+
+    <div class="col-md-9">
+      <div class="header">
+        <span><h2>Equations</h2></span>
+        <span id="eqn" class="btn"><img src="images/ic_arrow_drop_down_dark.webp" style="height:32px; margin-top:8px"></span>
+      </div>
+      <div id = "6_eqn" class ="p"></div>
+    </div>
+  </container>
+
+<script src="learn.js"></script>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->

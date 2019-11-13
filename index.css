@@ -6,32 +6,25 @@ body{
   background-attachment: inherit;
   padding-top: 70px;
 }
-
 /*Style brand*/
 .logo{
   height: 45px;
-
 }
-
 /*Style navigation bar*/
-
-
 .nav li{
   color: #fff;
   font-size: 17px;
   margin-right: 35px;
   padding: 10px 0;
 }
-
 .nav li:hover{
   border-bottom: 1px solid #00FFB8;
-  padding-bottom: 9px;
   cursor: pointer;
 }
-
-
-/*Style jumbotron*/
-
+.active {
+  border-bottom: 1px solid #00FFB8;
+  cursor: pointer;
+}
 /*Style footer*/
 .footer{
   background-color:black;
@@ -39,24 +32,11 @@ body{
   font-size: 15px;
   padding: 10px 0;
 }
-
+/*Style jumbotron*/
 .jumbotron{
   background: transparent;
   padding: 100px;
   margin: 20px;
   height: auto;
   color: white;
-}
-
-.active {
-  border-bottom: 1px solid #00FFB8;
-  padding-bottom: 9px;
-  cursor: pointer;
-}
-@media (max-width: 768px){
-
-  .logo{
-    padding-bottom: 15px;
-    height: 45px;
-  }
 }
